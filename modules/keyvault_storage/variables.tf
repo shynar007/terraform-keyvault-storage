@@ -36,7 +36,7 @@ variable "storage_location" {
 }
 
 variable "storage_sku" {
-  description = "Replication type for storage account (LRS, RA-GRS)"
+  description = "Replication type for storage account (LRS, RAGRS)"
   type        = string
 }
 
