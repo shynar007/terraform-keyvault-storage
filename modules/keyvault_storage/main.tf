@@ -19,6 +19,6 @@ resource "azurerm_storage_account" "this" {
   location                 = var.storage_location
   account_tier             = "Standard"
   account_replication_type = var.storage_sku
-  allow_blob_public_access = var.storage_public_access
+  allow_nested_items_to_be_public = var.storage_public_access
   tags                     = var.tags
 }
