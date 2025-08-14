@@ -12,13 +12,13 @@ The example under `examples/deployment` demonstrates the exact scenarios request
 ## Repository Layout
 
 modules/keyvault_storage/ 
-├── main.tf
-├── variables.tf
-└── outputs.tf
+main.tf
+variables.tf
+outputs.tf
 
 examples/deployment/ 
-├── main.tf
-└── terraform.tfvars 
+main.tf
+terraform.tfvars 
 
 #Quick Start 
 
